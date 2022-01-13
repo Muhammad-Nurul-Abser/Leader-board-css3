@@ -3,14 +3,38 @@ body{
     background-color: #e6f9ff;
     font-family: 'Barlow', sans-serif;
 }
+ul {
+    list-style-type: none;
+    padding: 30px;
+    overflow: hidden;
+    background-color: blue;
+}
+
+  
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+  
+.active {
+    background-color:rgba(45, 46, 45, 0.164);
+}
+
 main{
     width: 900px;
     max-width: 90%;
     margin: 0 auto;
 }
-.bg-color{
-    background-image: linear-gradient(#e6eeff, #f9e6ff);
-}
+
 section{
     background-color: white;
     padding: 1em;
