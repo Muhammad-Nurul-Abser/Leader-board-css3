@@ -8,6 +8,9 @@ main{
     max-width: 90%;
     margin: 0 auto;
 }
+.bg-color{
+    background-image: linear-gradient(#e6eeff, #f9e6ff);
+}
 section{
     background-color: white;
     padding: 1em;
@@ -28,13 +31,14 @@ a{
     
 }
 
+
 .bttn{
     transition: all 0.5s;
 }
 .bttn:hover{
     padding-right: 25px;
-    background-color: lightblue;
-    border-radius: 5%;
+color: lightcoral;
+    border-radius: 8%;
 }
 
 
